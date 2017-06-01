@@ -1,0 +1,43 @@
+<view>
+  <swiper indicator-dots="true" autoplay="true">
+     <swiper-item>
+		 	<image src="/images/wx.png"></image>
+		 </swiper-item>
+     <swiper-item>
+		 	<image src="/images/vr.png"></image>
+		 </swiper-item>
+     <swiper-item>
+		 	<image src="/images/iqiyi.png"></image>
+		 </swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/1.png"></image>
+			<text class="post-date">{{date}}</text>
+    </view>
+		<text class="post-title">正是虾肥蟹壮时</text>
+		<image class="post-image" src="/images/post/crab.png"></image>
+		<text class="post-content"> 到青岛游玩，尤其是秋季，倘若只是淌淌海水看看建筑，那小编不得不说一句：您真是low爆啦！不下海，不和当地的渔民们一起捕一次鱼，网一次虾，您怎么好意思说来过青岛！眼下正是青岛海产品上市的热门季节，尝尝自己亲手捕起来的鱼肯定别有滋味儿！</text>
+		<view class="post-like">
+			<image class="post-like-image" src="../../images/icon/chat.png"></image>
+			<text class="post-like-font">92</text>
+			<image class="post-like-image" src="../../images/icon/view.png"></image>
+			<text class="post-like-font">65</text>
+		</view>
+  </view>
+	<view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/2.png"></image>
+			<text class="post-date">Nov 1 2017</text>
+    </view>
+		<text class="post-title">俄红旗歌舞团空难真相公布：少校机长甚至不知该从哪条跑道起飞</text>
+		<image class="post-image" src="/images/post/bl.png"></image>
+		<text class="post-content">据俄罗斯《生意人报》6月1日报道，俄罗斯国防部周三公布了去年12月25日俄国防部图-154飞机坠毁事件的最终调查结果——确定这是一起由飞行员操作失误而酿成的惨剧。</text>
+		<view class="post-like">
+			<image class="post-like-image" src="../../images/icon/chat.png"></image>
+			<text class="post-like-font">92</text>
+			<image class="post-like-image" src="../../images/icon/view.png"></image>
+			<text class="post-like-font">65</text>
+		</view>
+  </view>
+</view>
