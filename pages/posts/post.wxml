@@ -15,7 +15,7 @@
       <image class="post-author" src="/images/avatar/1.png"></image>
 			<text class="post-date">{{date}}</text>
     </view>
-		<text class="post-title">正是虾肥蟹壮时</text>
+		<text class="post-title">{{title}}</text>
 		<image class="post-image" src="/images/post/crab.png"></image>
 		<text class="post-content"> 到青岛游玩，尤其是秋季，倘若只是淌淌海水看看建筑，那小编不得不说一句：您真是low爆啦！不下海，不和当地的渔民们一起捕一次鱼，网一次虾，您怎么好意思说来过青岛！眼下正是青岛海产品上市的热门季节，尝尝自己亲手捕起来的鱼肯定别有滋味儿！</text>
 		<view class="post-like">
