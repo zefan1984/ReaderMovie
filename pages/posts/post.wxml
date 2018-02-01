@@ -2,13 +2,13 @@
 <view>
   <swiper indicator-dots="true" autoplay="true">
      <swiper-item>
-		 	<image src="/images/wx.png"></image>
+		 	<image src="/images/wx.png" catchtap="onPostTap" data-postid="3"></image>
 		 </swiper-item>
      <swiper-item>
-		 	<image src="/images/vr.png"></image>
+		 	<image src="/images/vr.png" catchtap="onPostTap" data-postid="4"></image>
 		 </swiper-item>
      <swiper-item>
-		 	<image src="/images/iqiyi.png"></image>
+		 	<image src="/images/iqiyi.png" catchtap="onPostTap" data-postid="5"></image>
 		 </swiper-item>
   </swiper>
   <block wx:for="{{postkey}}" wx:for-item="its">

@@ -1,19 +1,20 @@
 <view class="container">
-  <image class="head-image" src="/images/post/sls.jpg"></image>
-  <image class="audio" src="/images/music/music-start.png"></image>
+  <image class="head-image" src="{{isPlayingMusic? currentData.music.coverImg: currentData.headImgSrc}}"></image>
+  <image catchtap="onMusicTap" class="audio" src="{{isPlayingMusic? '/images/music/music-stop.png': '/images/music/music-start.png'}}"></image>
   <view class="author-date">
     <image class="avatar" src="/images/avatar/2.png"></image>
-    <text class="author">胡歌</text>
+    <text class="author">{{currentData.author}}</text>
     <text class="const-text">发表于</text>
-    <text class="date">三天前</text>
+    <text class="date">{{currentData.dateTime}}</text>
   </view>
-  <text class="title">炉石传说好玩吗？</text>
+  <text class="title">{{currentData.title}}</text>
   <view class="tool">
     <view class="circle-img">
-      <image src="/images/icon/collection.png"></image>
+      <image bindtap="collectTap" wx:if="{{collected}}" src="/images/icon/collection.png"></image>
+      <image bindtap="collectTap" wx:else src="/images/icon/collection-anti.png"></image>
       <image class="share-img" src="/images/icon/share.png"></image>
     </view>
     <view class="horizon"></view>
   </view>
-  <text class="detail">炉石传说好玩吗？暴雪公司的游戏能不好玩吗？</text>
+  <text class="detail">{{currentData.detail}}</text>
 </view>
