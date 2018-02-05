@@ -1,0 +1,8 @@
+@import "../movie-grid/movie-grid-template.wxss";
+
+.is-ending{
+  font-size: 20rpx;
+  text-align: center;
+  padding-bottom: 40rpx;
+  color:#f2f2f2;
+}

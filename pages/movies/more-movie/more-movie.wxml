@@ -1,0 +1,7 @@
+<import src="../movie-grid/movie-grid-template.wxml" />
+
+<template is="movieGridTemplate" data="{{movie}}" />
+
+<view wx:if="{{isEnd}}" class="is-ending">
+  ————————————   我是有底线的   ——————————————
+</view>

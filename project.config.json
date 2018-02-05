@@ -28,9 +28,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "xxx",
-					"pathName": "pages/posts/post"
+					"id": 0,
+					"name": "movie",
+					"pathName": "pages/movies/movies",
+					"query": ""
 				}
 			]
 		}
